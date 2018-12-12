@@ -3,4 +3,4 @@ all: ntg
 default: ntg
 
 ntg:
-	@echo "Hello World!"
+	@echo "Hello World! from $$(git branch)"
